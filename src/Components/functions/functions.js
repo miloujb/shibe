@@ -5,8 +5,9 @@ const baseURL =
 
 const getShibe = () => {
   axios.get(`${baseURL}`).then(({ data }) => {
-    console.log(data);
-    return data;
+    let shibeImg = data[0];
+    console.log(data[0]);
+    return shibeImg;
   });
 };
 

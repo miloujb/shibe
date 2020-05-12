@@ -1,23 +1,12 @@
 import React, { Component } from "react";
 import getShibe from "./functions/functions";
 
-class Image extends Component {
-  fetchShibe = () => {
-    getShibe();
-  };
-
-  handleSubmit = (event) => {
-    event.preventDefault();
-    this.fetchShibe();
-  };
-
-  render() {
-    return (
-      <div>
-        <input type="button" value="many doge" onClick={this.fetchShibe}></input>
-      </div>
-    );
-  }
-}
+const Image = (props) => {
+  return (
+    <div>
+      <h1>image</h1>
+    </div>
+  );
+};
 
 export default Image;
