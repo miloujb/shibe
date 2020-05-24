@@ -22,9 +22,12 @@ class Image extends Component {
   };
 
   render() {
+    const { img } = this.state;
     return (
       <div>
-        <img src={this.img} alt="shibe" />
+        <div className="img">
+          <img src={img} alt="A Shibe" />
+        </div>
         <button type="button" onClick={this.refreshPage}>
           Moar Doge
         </button>
