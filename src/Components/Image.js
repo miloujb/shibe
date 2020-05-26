@@ -25,12 +25,20 @@ class Image extends Component {
     const { img } = this.state;
     return (
       <div>
-        <div className="img">
-          <img src={img} alt="A Shibe" />
+        <div className="img-container">
+          <div className="img">
+            <img src={img} alt="A Shibe" className="image" />
+          </div>
         </div>
-        <button type="button" onClick={this.refreshPage}>
-          Moar Doge
-        </button>
+        <div className="button">
+          <button
+            className="button-text"
+            type="button"
+            onClick={this.refreshPage}
+          >
+            Moar Doge
+          </button>
+        </div>
       </div>
     );
   }

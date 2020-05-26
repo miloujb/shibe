@@ -1,31 +1,69 @@
 .App {
   text-align: center;
+  background-color: pink;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 300px;
+  width: 300px;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.button {
+  padding: 40px;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.doge {
+  font-family: "Comic Neue", cursive;
+  color: yellow;
+}
+
+.line1 {
+  font-family: "Comic Neue", cursive;
+  color: royalblue;
+}
+
+.line2 {
+  font-family: "Comic Neue", cursive;
+  color: green;
+}
+
+.line3 {
+  font-family: "Comic Neue", cursive;
+  color: red;
+}
+
+.line4 {
+  font-family: "Comic Neue", cursive;
+  color: purple;
+}
+
+.button-text {
+  font-family: "Comic Neue", cursive;
+  color: hotpink;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
